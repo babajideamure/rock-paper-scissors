@@ -12,8 +12,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #000; /* Black background */
-  color: #fff; /* White text */
+  background-color: #000; 
+  color: #fff;
   text-align: center;
   padding: 1rem;
 }
@@ -24,10 +24,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background: #111; /* Darker black box */
+  background: #111;
   padding: 2rem;
   border-radius: 15px;
-  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5); /* Yellow glow */
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
   width: 90%;
   max-width: 600px;
 }
@@ -35,12 +35,12 @@ body {
 h1 {
   font-size: 2rem;
   font-weight: 700;
-  color: #FFD700; /* Gold Yellow */
+  color: #FFD700;
 }
 
 h2 {
   font-size: 1.5rem;
-  color: #FFD700; /* Gold Yellow */
+  color: #FFD700;
 }
 
 ul {
@@ -62,7 +62,7 @@ ul li {
   padding: 0.5rem;
   gap: 1rem;
   background: #222;
-  flex-wrap: wrap; /* Allows wrapping on small screens */
+  flex-wrap: wrap;
   border: 1px solid #FFD700;
   border-radius: 5px;
 }
@@ -73,20 +73,19 @@ p {
   color: #fff;
 }
 
-/* Button Section */
 .btn {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  flex-wrap: wrap; /* Ensures buttons wrap on smaller screens */
+  flex-wrap: wrap;
 }
 
 button {
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
-  border: 3px solid #FFD700; /* Yellow border */
-  background: #000; /* Black button */
+  border: 3px solid #FFD700; 
+  background: #000; 
   color: #FFD700;
   font-size: 3rem;
   cursor: pointer;
@@ -96,7 +95,7 @@ button {
   align-items: center;
 }
 
-/* Hover & Click Effects */
+
 button:hover {
   transform: scale(1.05);
   background: #FFD700;
@@ -105,10 +104,9 @@ button:hover {
 
 button:active {
   transform: scale(1.15);
-  box-shadow: 0 0 15px rgba(255, 215, 0, 0.8); /* Strong yellow glow */
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.8); 
 }
 
-/* 📱 Mobile Optimization */
 @media (max-width: 768px) {
   .container {
     width: 100%;
